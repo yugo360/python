@@ -1,0 +1,20 @@
+# Learning basics of python
+
+Number = float
+Characters = int 
+a + b	Addition	Sum of a and b
+a - b	Subtraction	Difference of a and b
+a * b	Multiplication	Product of a and b
+a / b	True division	Quotient of a and b
+a // b	Floor division	Quotient of a and b, removing fractional parts
+a % b	Modulus	Integer remainder after division of a by b
+a ** b	Exponentiation	a raised to the power of b
+-a	Negation	The negative of a
+
+Built in function with numbers 
+print(min(1, 2, 3,) = 1
+print(max(1, 2, 3) =3
+orint(abs(-33)) =33 (absolute value)
+
+https://www.kaggle.com/code/colinmorris/hello-python
+
