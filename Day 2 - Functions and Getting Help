@@ -1,0 +1,54 @@
+# help fuction to see what you are missing = help()
+
+def 
+you can build your own function
+def least_difference(a, b, c):
+    diff1 = abs(a - b)
+    diff2 = abs(b - c)
+    diff3 = abs(a - c)
+    return min(diff1, diff2, diff3)
+This creates a function called least_difference, which takes three arguments, a, b, and c.
+Functions start with a header introduced by the def keyword. The indented block of code following the : is run when the function is called.
+return is another keyword uniquely associated with functions. When Python encounters a return statement, it exits the function immediately, and passes the value on the right hand side to the calling context.
+
+docstring = when you call"help() on a function 
+
+sep is to put some value in between 
+print(1, 2, 3, sep=' < ')
+answ = 1 < 2 < 3
+
+Quiz 
+1:
+def round_to_two_places(num):
+    """Return the given number rounded to two decimal places. 
+    
+    >>> round_to_two_places(3.14159)
+    3.14
+    """
+    # Replace this body with your own code.
+    return(round(num,2))
+    # ("pass" is a keyword that does literally nothing. We used it as a placeholder
+    # because after we begin a code block, Python requires at least one line of code)
+    pass
+Use help function to see the variables needed 
+
+2:
+# Put your test code here
+def round_to_two (num):
+    return abs(round(num, 2))
+
+print(round_to_two(-3.145738))
+q2.solution()
+
+3:
+def to_smash(total_candies,n_friends=3):
+    """Return the number of leftover candies that must be smashed after distributing
+    the given number of candies evenly between 3 friends.
+    
+    >>> to_smash(91)
+    1
+    """
+    
+    return total_candies % n_friends
+
+
